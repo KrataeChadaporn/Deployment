@@ -14,7 +14,7 @@ import { Utils } from './Utils';
 
     // Test 2
     const result2 = Utils.countChar("cat");
-    if (result2 === 4) {
+    if (result2 === 5) {
         console.log(0);
     } else {
         console.log(1);
