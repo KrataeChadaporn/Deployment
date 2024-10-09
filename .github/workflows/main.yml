@@ -12,11 +12,8 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Install dependencies
+    - name: install package.json
       run: npm install
-
-    - name: Check dist directory
-      run: ls dist/
     
       - name: Run test
       run: |
