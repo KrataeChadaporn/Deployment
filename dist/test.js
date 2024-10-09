@@ -11,17 +11,24 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const Utils_1 = require("./Utils"); // เปลี่ยนเส้นทางให้ถูกต้องตามโครงสร้างโปรเจคของคุณ
 const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
-    const result2 = Utils_1.Utils.countChar("cadsadt");
-    console.log(result2); // แสดงผลลัพธ์ใน console
-    // ตรวจสอบว่าผลลัพธ์ตรงตามที่คาดหวังหรือไม่
-    if (result2 === 5) {
-        console.log(0); // แสดงผล 0 ถ้าผลลัพธ์ตรง
-        process.exit(0); // ออกจากโปรแกรมด้วยรหัส 0 สำหรับความสำเร็จ
+    // const result2 = Utils.countChar("cadsadt");
+    // console.log(result2);
+    // if (result2 === 5) {
+    //     console.log(0); 
+    //     process.exit(0); 
+    // } else {
+    //     console.log(1); 
+    //     process.exit(1); 
+    // }
+    const result3 = Utils_1.Utils.countChar("krate");
+    console.log(result3);
+    if (result3 === 5) {
+        console.log(0);
+        process.exit(0);
     }
     else {
-        console.log(1); // แสดงผล 1 ถ้าผลลัพธ์ไม่ตรง
-        process.exit(1); // ออกจากโปรแกรมด้วยรหัส 1 สำหรับความล้มเหลว
+        console.log(1);
+        process.exit(1);
     }
 });
-// เรียกใช้ฟังก์ชันทดสอบ
 exports.default = unit_test();
