@@ -23,6 +23,17 @@ const unit_test = async () => {
         process.exit(1); 
     }
 };
+const unit_test3 = async () => {
 
+    const unit_test3 = async () => {
+        if (Utils.minut(3, 2) === 1) {
 
-export default unit_test();
+            console.log(0)
+        } else {
+            console.log(1)
+            return;
+        }
+    }
+};
+
+export const test= { unit_test,unit_test3}

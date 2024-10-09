@@ -8,4 +8,10 @@ function countChar(input: string): number {
   {
       return a+b
   }
-  export const Utils = {countChar,add}
+
+
+  function minut(a:number,b:number)
+  {
+      return a-b
+  }
+  export const Utils = {countChar,add,minut}
