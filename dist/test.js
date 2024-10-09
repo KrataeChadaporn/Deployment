@@ -20,6 +20,7 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     //     }
     // Test 2
     const result2 = Utils_1.Utils.countChar("cat");
+    console.log(result2);
     if (result2 === 5) {
         console.log(0);
     }
