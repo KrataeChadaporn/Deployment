@@ -36,5 +36,18 @@ const unit_test2 = async () => {
     }
 }
 
+const unit_test3 = async () => {
+
+    const unit_test3 = async () => {
+        if (Utils.add(3, 2) === 1) {
+
+            console.log(0)
+        } else {
+            console.log(1)
+            return;
+        }
+    }
+};
+
 
 export const test= { unit_test,unit_test2}
