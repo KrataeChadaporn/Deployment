@@ -10,6 +10,16 @@ const unit_test = async () => {
     } else {
         console.log(1);
     }
+
+
+    // Test 2
+    const result2 = Utils.countChar("cat");
+    if (result2 === 4) {
+        console.log(0);
+    } else {
+        console.log(1);
+    }
 }
+
 
 export default unit_test;

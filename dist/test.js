@@ -19,5 +19,13 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     else {
         console.log(1);
     }
+    // Test 2
+    const result2 = Utils_1.Utils.countChar("cat");
+    if (result2 === 4) {
+        console.log(0);
+    }
+    else {
+        console.log(1);
+    }
 });
 exports.default = unit_test;
