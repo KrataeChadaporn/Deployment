@@ -11,20 +11,22 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const Utils_1 = require("./Utils");
 const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
-    if (Utils_1.Utils.add(1, 3) === 23445) {
-        console.log(1);
+    //     if (Utils.add(1, 3) === 23445) {
+    //         console.log(1)
+    //     } else {
+    //         console.log(0)
+    //         return;
+    //     }
+    const result2 = Utils_1.Utils.countChar("cadsadt");
+    console.log(result2); // แสดงผลลัพธ์ใน console
+    // ตรวจสอบว่าผลลัพธ์ตรงตามที่คาดหวังหรือไม่
+    if (result2 === 5) {
+        console.log(0); // แสดงผล 0 ถ้าผลลัพธ์ตรง
+        process.exit(0); // ออกจากโปรแกรมด้วยรหัส 0 สำหรับความสำเร็จ
     }
     else {
-        console.log(0);
-        return;
+        console.log(1); // แสดงผล 1 ถ้าผลลัพธ์ไม่ตรง
+        process.exit(1); // ออกจากโปรแกรมด้วยรหัส 1 สำหรับความล้มเหลว
     }
-    // // Test 2
-    // const result2 = Utils.countChar("cadsadt");
-    // console.log(result2)
-    // if (result2 === 5) {
-    //     console.log(0);
-    // } else {
-    //     console.log(1);
-    // }
 });
 exports.default = unit_test;
