@@ -13,7 +13,7 @@ import { Utils } from './Utils';
 
 
     // Test 2
-    const result2 = Utils.countChar("cat");
+    const result2 = Utils.countChar("cadsadt");
     console.log(result2)
     if (result2 === 5) {
        

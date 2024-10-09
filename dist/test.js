@@ -19,7 +19,7 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     //         console.log(1);
     //     }
     // Test 2
-    const result2 = Utils_1.Utils.countChar("cat");
+    const result2 = Utils_1.Utils.countChar("cadsadt");
     console.log(result2);
     if (result2 === 5) {
         console.log(0);
