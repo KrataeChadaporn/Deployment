@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Utils_1 = require("./Utils");
+const Utils_1 = require("./Utils"); // เปลี่ยนเส้นทางให้ถูกต้องตามโครงสร้างโปรเจคของคุณ
 const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     // const result2 = Utils.countChar("cadsadt");
     // console.log(result2);
