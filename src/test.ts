@@ -1,6 +1,4 @@
 import { Utils } from './Utils'; 
-
-
 const unit_test = async () => {
     // const result2 = Utils.countChar("cadsadt");
     // console.log(result2);
@@ -26,15 +24,5 @@ const unit_test = async () => {
 
 };
 
-const unit_test2 = async () => {
-    if (Utils.add(1, 4) === 5) {
 
-        console.log(0)
-    } else {
-        console.log(1)
-        return;
-    }
-}
-
-
-export const test= { unit_test,unit_test2}
+export default unit_test();
