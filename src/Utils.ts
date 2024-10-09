@@ -4,4 +4,8 @@ function countChar(input: string): number {
     return input.length;
   }
 
-  export const Utils = {countChar}
+  function add(a:number,b:number)
+  {
+      return a+b
+  }
+  export const Utils = {countChar,add}

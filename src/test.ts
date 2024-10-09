@@ -3,24 +3,24 @@ import { Utils } from './Utils';
 
 
  const unit_test = async () => {
-//     // test1
-//     const result1 = Utils.countChar("hello");
-//     if (result1 === 5) {
-//         console.log(0);
-//     } else {
-//         console.log(1);
-//     }
+    if (Utils.add(1, 3) === 5) {
 
-
-    // Test 2
-    const result2 = Utils.countChar("cadsadt");
-    console.log(result2)
-    if (result2 === 5) {
-       
-        console.log(0);
+        console.log(0)
     } else {
-        console.log(1);
+        console.log(1)
+        return;
     }
+
+
+    // // Test 2
+    // const result2 = Utils.countChar("cadsadt");
+    // console.log(result2)
+    // if (result2 === 5) {
+       
+    //     console.log(0);
+    // } else {
+    //     console.log(1);
+    // }
 }
 
 

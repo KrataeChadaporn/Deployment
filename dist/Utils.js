@@ -4,4 +4,7 @@ exports.Utils = void 0;
 function countChar(input) {
     return input.length;
 }
-exports.Utils = { countChar };
+function add(a, b) {
+    return a + b;
+}
+exports.Utils = { countChar, add };
