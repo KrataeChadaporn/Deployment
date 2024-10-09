@@ -18,15 +18,14 @@ jobs:
     - name: Check dist directory
       run: ls dist/
     
-    - name: Run test
+      - name: Run test
       run: |
         output=$(node dist/test.js)
-        exist_code=$output
+        exit_code=$?
 
         if [ $exit_code -ne 0 ]; then
-        echo "Error: The Node.js script failed with exit code $exit_code"
-        exit 1
+            echo "Error: The Node.js script failed with exit code $exit_code"
+            exit 1
         fi
-    - name: Run test 2
-      run: |
+
       
