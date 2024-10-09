@@ -17,16 +17,16 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     //         console.log(0)
     //         return;
     //     }
-    // Test 2
     const result2 = Utils_1.Utils.countChar("cadsadt");
-    console.log(result2);
+    console.log(result2); // แสดงผลลัพธ์ใน console
+    // ตรวจสอบว่าผลลัพธ์ตรงตามที่คาดหวังหรือไม่
     if (result2 === 5) {
-        console.log(0);
-        return 0;
+        console.log(0); // แสดงผล 0 ถ้าผลลัพธ์ตรง
+        process.exit(0); // ออกจากโปรแกรมด้วยรหัส 0 สำหรับความสำเร็จ
     }
     else {
-        console.log(1);
-        return 1;
+        console.log(1); // แสดงผล 1 ถ้าผลลัพธ์ไม่ตรง
+        process.exit(1); // ออกจากโปรแกรมด้วยรหัส 1 สำหรับความล้มเหลว
     }
 });
 exports.default = unit_test;
