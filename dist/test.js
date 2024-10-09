@@ -9,14 +9,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Utils_1 = require("./Utils");
+const Utils_1 = require("./Utils"); // เปลี่ยนเส้นทางให้ถูกต้องตามโครงสร้างโปรเจคของคุณ
 const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
-    //     if (Utils.add(1, 3) === 23445) {
-    //         console.log(1)
-    //     } else {
-    //         console.log(0)
-    //         return;
-    //     }
     const result2 = Utils_1.Utils.countChar("cadsadt");
     console.log(result2); // แสดงผลลัพธ์ใน console
     // ตรวจสอบว่าผลลัพธ์ตรงตามที่คาดหวังหรือไม่
@@ -29,4 +23,5 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
         process.exit(1); // ออกจากโปรแกรมด้วยรหัส 1 สำหรับความล้มเหลว
     }
 });
-exports.default = unit_test;
+// เรียกใช้ฟังก์ชันทดสอบ
+exports.default = unit_test();

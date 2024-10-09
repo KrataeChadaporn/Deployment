@@ -1,20 +1,6 @@
+import { Utils } from './Utils'; // เปลี่ยนเส้นทางให้ถูกต้องตามโครงสร้างโปรเจคของคุณ
 
-import { Utils } from './Utils';
-
-
-  const unit_test = async () => {
-//     if (Utils.add(1, 3) === 23445) {
-
-//         console.log(1)
-//     } else {
-//         console.log(0)
-//         return;
-//     }
-
-
-
-
-
+const unit_test = async () => {
     const result2 = Utils.countChar("cadsadt");
     console.log(result2); // แสดงผลลัพธ์ใน console
 
@@ -28,6 +14,5 @@ import { Utils } from './Utils';
     }
 };
 
-export default unit_test;
-
-
+// เรียกใช้ฟังก์ชันทดสอบ
+export default unit_test();
