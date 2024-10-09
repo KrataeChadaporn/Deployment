@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.test = void 0;
 const Utils_1 = require("./Utils");
 const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
     // const result2 = Utils.countChar("cadsadt");
@@ -31,4 +32,13 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
         process.exit(1);
     }
 });
-exports.default = unit_test();
+const unit_test2 = () => __awaiter(void 0, void 0, void 0, function* () {
+    if (Utils_1.Utils.add(1, 4) === 5) {
+        console.log(0);
+    }
+    else {
+        console.log(1);
+        return;
+    }
+});
+exports.test = { unit_test, unit_test2 };
