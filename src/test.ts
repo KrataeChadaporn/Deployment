@@ -5,9 +5,9 @@ import { Utils } from './Utils';
  const unit_test = async () => {
     if (Utils.add(1, 3) === 5) {
 
-        console.log(0)
-    } else {
         console.log(1)
+    } else {
+        console.log(0)
         return;
     }
 
