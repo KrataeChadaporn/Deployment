@@ -1,5 +1,4 @@
-import { Utils } from './Utils'; // เปลี่ยนเส้นทางให้ถูกต้องตามโครงสร้างโปรเจคของคุณ
-
+import { Utils } from './Utils'; 
 const unit_test = async () => {
     // const result2 = Utils.countChar("cadsadt");
     // console.log(result2);
@@ -22,6 +21,7 @@ const unit_test = async () => {
         console.log(1); 
         process.exit(1); 
     }
+
 };
 
 
