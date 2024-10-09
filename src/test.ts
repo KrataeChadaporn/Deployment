@@ -2,7 +2,7 @@
 import { Utils } from './Utils';
 
 
-// const unit_test = async () => {
+ const unit_test = async () => {
 //     // test1
 //     const result1 = Utils.countChar("hello");
 //     if (result1 === 5) {
