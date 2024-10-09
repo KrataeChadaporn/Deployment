@@ -41,4 +41,27 @@ const unit_test2 = () => __awaiter(void 0, void 0, void 0, function* () {
         return;
     }
 });
-exports.test = { unit_test, unit_test2 };
+const unit_test3 = () => __awaiter(void 0, void 0, void 0, function* () {
+    const unit_test3 = () => __awaiter(void 0, void 0, void 0, function* () {
+        if (Utils_1.Utils.minut(3, 2) === 1) {
+            console.log(0);
+            process.exit(0);
+        }
+        else {
+            console.log(1);
+            process.exit(0);
+        }
+    });
+});
+const unit_test4 = () => __awaiter(void 0, void 0, void 0, function* () {
+    if (Utils_1.Utils.multi(1, 4) === 4) {
+        console.log(0);
+        process.exit(0);
+    }
+    else {
+        console.log(1);
+        process.exit(1);
+        return;
+    }
+});
+exports.test = { unit_test, unit_test2, unit_test3, unit_test4 };

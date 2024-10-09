@@ -39,26 +39,26 @@ const unit_test2 = async () => {
 const unit_test3 = async () => {
 
     const unit_test3 = async () => {
-        if (Utils.add(3, 2) === 1) {
-
-            console.log(0)
-        } else {
-            console.log(1)
-            return;
-        }
-    }
-};
-const unit_test3 = async () => {
-
-    const unit_test3 = async () => {
         if (Utils.minut(3, 2) === 1) {
 
             console.log(0)
+            process.exit(0);
         } else {
             console.log(1)
-            return;
+            process.exit(0);
+            
         }
     }
 };
+const unit_test4 = async () => {
+    if (Utils.multi(1, 4) === 4) {
 
-export default unit_test();
+        console.log(0)
+        process.exit(0);
+    } else {
+        console.log(1)
+        process.exit(1);
+        return;
+    }
+}
+export const test ={unit_test,unit_test2,unit_test3,unit_test4}

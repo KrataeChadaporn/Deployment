@@ -7,4 +7,10 @@ function countChar(input) {
 function add(a, b) {
     return a + b;
 }
-exports.Utils = { countChar, add };
+function minut(a, b) {
+    return a - b;
+}
+function multi(a, b) {
+    return a * b;
+}
+exports.Utils = { countChar, add, minut, multi };
